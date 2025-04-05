@@ -4,7 +4,8 @@
 #' @param p number of variables. (p > 20)
 #' @param signal signal of true beta's.
 #' @param tau quantile value between 0 and 1.
-#'
+#' @param autocorrelation autocorrelation value between 0 and 1 in the covariance matrix.
+#' 
 #' @return \item{Y}{n x 1 vector.}
 #' @return \item{X}{n x p matrix.}
 #' @return \item{true_beta}{p x 1 true beta vector.}
@@ -13,7 +14,7 @@
 #'
 #' @examples
 #' set.seed(1)
-#' data = generate.data(n = 150, p = 150, signal = 1, tau = 0.5)
+#' data = generate.data(n = 150, p = 150, signal = 1, tau = 0.5, autocorrelation = 0.5)
 #'
 generate.data <- function(n, p, signal = 1, tau = 0.5, autocorrelation = 0.5) {
   indx <- c(6, 12, 15, 20)
