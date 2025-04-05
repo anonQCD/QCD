@@ -16,7 +16,7 @@ You can download the `QCD` package from Github.
 
 ```{r, warning=FALSE, results='hide',message=FALSE}
 library(devtools)
-install_github("anonQCD/QCD/package")
+install_github("anonQCD/QCD")
 ```
 
 ## Quick Start: QCD
