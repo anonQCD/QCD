@@ -1,5 +1,5 @@
 Package: QCD
-Title: QCD : Pathwise Coordinate Descent for High dimensional Penalized Quantile Regression
+Title: QCD : Pathwise Coordinate Descent for LASSO Penalized Quantile Regression
 Version: 0.0.0.9000
 Authors@R: 
     person("Anonymous", "Authors", , "username@email.com", role = c("aut", "cre"),
